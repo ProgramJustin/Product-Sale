@@ -1,0 +1,27 @@
+# _GAME T'S_
+
+## CONTRIBUTORS: **JUSTIN GOMEZ**
+
+### PROJECT DESCRIPTION:
+1. A WEB PAGE FOR PURCHASING T-SHIRTS
+1. THE WEB PAGE SHOWCASES A SALE ON ALL GRAPHICS
+2. THIS PROJECT FOCUSES ON THE FOLLOWING:
+* ABSOLUTE AND RELATIVE POSITIONING
+* FLOATING IMGs FOR A GALLERY
+* ELEMENTS USING BOX-SIZING
+* USING PSEUDO-CLASS SELECTORS
+
+# SPECS:
+
+| Objective | Implementation | Status |
+|:-------------:|:-------------:|:-------------:|
+| | |  |
+
+
+# COMPLETE SET-UP INSTRUCTIONS
+1. DOWNLOAD OR CLONE FROM REPOSITORY [Click here](https://github.com/ProgramJustin/Product-Sale)...
+2. TO CLONE, TYPE: git clone https://github.com/ProgramJustin/Product-Sale INTO YOUR TERMINAL AND PRESS ENTER.
+3. OPEN UP THE FOLDER __
+4. DOUBLE-CLICK **index.html**
+
+* Copyright © 2017, Justin Gomez
