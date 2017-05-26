@@ -1,0 +1,17 @@
+.container-fluid {
+  width: 100%;
+  border: 2px solid red;
+}
+#main {
+  border: 1px solid black;
+  margin: auto;
+  width: 40%;
+  display: block;
+}
+.header {
+  background: black;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
