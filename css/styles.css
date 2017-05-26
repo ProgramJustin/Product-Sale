@@ -75,9 +75,13 @@ li a {
   width: 100%;
   position: relative;
   margin: 3%;
+  top: 0;
 }
 table {
   width: 100%;
+  position: relative;
+  top: 0;
+
 }
 
 th, td {
@@ -88,4 +92,16 @@ td {
 }
 tr:last-child {
   border-bottom: none;
+}
+#leftGallery {
+  width: 30%;
+  position: absolute;
+  left: 0;
+  top : 20%;
+  box-sizing: content-box;
+  box-shadow: 5px blur;
+}
+#leftGallery img {
+  width: 30%;
+  margin: 1%;
 }
