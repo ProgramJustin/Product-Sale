@@ -49,7 +49,7 @@ h2:after {
 ul {
   overflow: hidden;
   list-style: none;
-  margin-right: 41%;
+  margin-right: 38%;
   margin-top: 1.5%;
   font-family: 'Russo One', sans-serif;
 }
@@ -99,8 +99,14 @@ a:hover {
 #specs ul li {
   width: 100%;
   position: relative;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  font-size: 18px;
   margin: 3%;
   top: 0;
+}
+#listColors img{
+  width: 5%;
 }
 table, tr {
   width: 100%;
@@ -109,15 +115,18 @@ table, tr {
 }
 
 th, td {
-  padding: 12px;
+  padding: 10px;
   position: relative;
   font-family: 'Poiret One', cursive;
   font-weight: bold;
   color: black;
-  font-size: 16px;
+  font-size: 16px;;
 }
 td {
   border-top: 1px solid black;
+}
+td:first-child {
+  background-color:  rgb(244,243,242);
 }
 tr:last-child {
   border-bottom: none;
@@ -138,4 +147,19 @@ tr:last-child {
 }
 #leftGallery img:nth-child(7), #leftGallery img:nth-child(0) {
   clear: left;
+}
+#leftGallery h1 {
+  font-family: 'Russo One', sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 100%;
+}
+#leftGallery span {
+  margin-top: 40px;
+  border-bottom: 1px solid black;
+}
+span {
+  color: red;
+  display: inline-block;
+  font-size: 20px;
 }
