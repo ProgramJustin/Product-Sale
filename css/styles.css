@@ -1,29 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 .container-fluid {
   width: 100%;
   border: 2px solid red;
+  margin: 0;
+  padding: 0;
 }
-#main {
-  border: 1px solid black;
-  margin: auto;
-  width: 40%;
-  display: block;
+.row {
+  margin: 0;
+  width: 100%;
+  padding: 0;
 }
 .header {
   background: black;
   color: white;
   text-align: center;
   width: 100%;
-  display: block;
+  height: auto;
+  height:100px;
+  padding-top: 1%;
+}
+h2 {
+  display: inline;
+  margin-top: 10px;
 }
 .navUnderHeader {
   background-color: gray;
   border: 2px solid blue;
   color: white;
   width: 100%;
+  height: auto;
+  overflow: auto;
 }
-ul li {
-  float: left;
-  margin-left: 50%;
+ul {
+  overflow: hidden;
   list-style: none;
+  margin-right: 41%;
+}
+li a {
+  float: right;
   font-size: 16px;
+  display: inline;
+  color: white;
+  text-align: center;
+  margin-left: 5%;
+}
+.middle {
+  position: relative;
+}
+#main {
+  border: 1px solid black;
+  margin: auto;
+  width: 40%;
+  display: block;
+  position: relative;
+}
+#specs {
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 1%;
+  border: 1px solid red;
+  width: 30%;
+}
+#specs ul {
+  float: left;
+  position: relative;
+  border: 1px solid black;
+  width: 80%;
+}
+#specs ul li {
+  width: 30%;
+  position: relative;
 }
