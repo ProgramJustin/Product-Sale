@@ -25,7 +25,35 @@ body {
   padding-top: 1%;
   position: relative;
 }
+.social {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  float: left;
+  width: 5%;
+  border: 1px solid white;
+  border-radius: 100%;
+  margin-left: 10px;
+}
+#face {
+  background-color: white;
+}
+#insta {
+  left: 6%;
+  background-color: white;
+  padding: 5px;
+}
+#pint {
+  left: 12%;
+  background-color: white;
+}
+#twitter {
+  left: 18%;
+  background-color: white;
+  padding: 1px;
+}
 h2 {
+  position: relative;
   display: inline;
   margin-top: 10px;
   font-family: 'Russo One', sans-serif;
@@ -136,7 +164,7 @@ tr:last-child {
   position: absolute;
   float: left;
   left: .1%;
-  top : 22%;
+  top : 24%;
   overflow: auto;
 }
 #leftGallery img {
