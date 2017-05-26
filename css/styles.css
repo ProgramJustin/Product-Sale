@@ -5,7 +5,6 @@ body {
 }
 .container-fluid {
   width: 100%;
-  border: 2px solid red;
   margin: 0;
   padding: 0;
 }
@@ -29,16 +28,16 @@ h2 {
 }
 .navUnderHeader {
   background-color: gray;
-  border: 2px solid blue;
   color: white;
   width: 100%;
-  height: auto;
+  height: 75px;
   overflow: auto;
 }
 ul {
   overflow: hidden;
   list-style: none;
   margin-right: 41%;
+  margin-top: 1.5%;
 }
 li a {
   float: right;
@@ -52,7 +51,6 @@ li a {
   position: relative;
 }
 #main {
-  border: 1px solid black;
   width: 40%;
   display: block;
   position: absolute;
@@ -76,9 +74,18 @@ li a {
 #specs ul li {
   width: 100%;
   position: relative;
+  margin: 3%;
+}
+table {
+  width: 100%;
 }
 
 th, td {
   padding: 10px;
-  
+}
+td {
+  border-top: 1px solid black;
+}
+tr:last-child {
+  border-bottom: none;
 }
