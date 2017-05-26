@@ -30,7 +30,7 @@ body {
   top: 15%;
   left: 0;
   float: left;
-  width: 5%;
+  width: 3.5%;
   border: 1px solid white;
   border-radius: 100%;
   margin-left: 10px;
@@ -59,13 +59,14 @@ h2 {
   font-family: 'Russo One', sans-serif;
   font-size: 60px;
   letter-spacing: 5px;
+  text-shadow: 1px 1px green;
 }
-h2:after {
+.header h2:after {
   display: block;
   font-family: sans-serif;
   font-size: 12px;
   content: "Includes sizes up to XXL";
-  padding-bottom: -bottom: 10px;
+  padding-bottom: 10px;
 }
 .navUnderHeader {
   background-color: gray;
@@ -164,7 +165,7 @@ tr:last-child {
   position: absolute;
   float: left;
   left: .1%;
-  top : 24%;
+  top : 22%;
   overflow: auto;
 }
 #leftGallery img {
@@ -176,6 +177,7 @@ tr:last-child {
 #leftGallery img:nth-child(7), #leftGallery img:nth-child(0) {
   clear: left;
 }
+
 #leftGallery h1 {
   font-family: 'Russo One', sans-serif;
   text-align: center;
@@ -190,4 +192,24 @@ span {
   color: red;
   display: inline-block;
   font-size: 20px;
+}
+#pitch {
+  float: left;
+  position: absolute;
+  display: inline-block;
+  font-size: 32px;
+  bottom: 20%;
+  left: 38%;
+  width: 40%;
+}
+#pitch h2 {
+  font-size: 30px;
+  position: relative;
+  padding: 10px;
+  background-color: white;
+  opacity: .8;
+  padding-left: 0;
+  padding-right: 0;
+
+
 }
