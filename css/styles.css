@@ -212,6 +212,7 @@ span {
   padding-right: 0;
 }
 @media screen and (max-width: 2600px) {
+
   #leftGallery  {
     top: 27%;
   }
